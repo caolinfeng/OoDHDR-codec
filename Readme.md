@@ -87,6 +87,6 @@ If you find this code useful, please cite our paper::
 
 ```
 
-## Related links
+## Related link
  * This project is developed based on [CompressAI library](https://github.com/InterDigitalInc/CompressAI)
 
