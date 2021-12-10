@@ -66,7 +66,7 @@ python examples/test_hdr.py --cuda --pth /XXX.pth.tar
 python examples/test_sdr.py --cuda --pth /XXX.pth.tar
 ```
 
-
+The PyTorch pre-trained models can be downloaded [here (Google Drive)]()
 
 ## Citation
 
