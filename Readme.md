@@ -75,6 +75,10 @@ python examples/test_sdr.py --cuda --pth /XXX.pth.tar
 
 * The PyTorch pre-trained models can be downloaded [here (Google Drive)](https://drive.google.com/drive/folders/1FPUvTdN0JkoNJjm3FHDyrdPtLrddUxOm)
 
+### Quality Assessement
+
+To assess the compression performance on HDR images, the evaluation metrics of puPSNR, puSSIM and HDR-VDP (3.0.6) are used, the source codes (Matlab) can be [downloaded here](http://resources.mpi-inf.mpg.de/hdr/vdp/). 
+
 ## Citation
 
 If you use this project, please cite the relevant original publications for the
