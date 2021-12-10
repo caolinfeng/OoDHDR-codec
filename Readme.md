@@ -42,6 +42,7 @@ HDR training datasets (.hdr) can be downloaded from:
 
 A training script with a regularization & fusion loss is provided in
 `examples/train_ood.py`. Please specify the corresponding HDR & SDR datasets in the file. The custom ImageFolder structure in our project only supports for the RGBE (.hdr) input currently.
+
 You can run the script for a training pipeline:
 
 ```bash
