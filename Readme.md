@@ -84,5 +84,4 @@ models and datasets, and cite this project as:
 
 ## Related links
  * This project is developed based on CompressAI library: https://github.com/InterDigitalInc/CompressAI
- * Kodak image dataset: http://r0k.us/graphics/kodak/
 
