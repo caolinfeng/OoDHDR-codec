@@ -33,7 +33,7 @@ SDR training datasets can be downloaded from:
 HDR training datasets can be downloaded from:
 - [HDRHEVEN](https://hdrihaven.com/hdris/)
 - [pfstools(HDR Image Gallery)](http://pfstools.sourceforge.net/hdr_gallery.html)
-- [HDRLabs](http://www labs.com/sibl/archive.htm)
+- [HDRLabs](http://www.hdrlabs.com/sibl/archive.htm)
 - [Funt and Shi 2010](https://www2.cs.sfu.ca/~colour/data/funt_hdr/)
 
 ## Usage
