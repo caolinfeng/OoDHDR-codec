@@ -26,61 +26,27 @@ pip install -U pip && pip install -e .
 
 ## Usage
 
-### Examples
+### Training
 
-Script and notebook examples can be found in the `examples/` directory.
-
-To encode/decode images with the provided pre-trained models, run the
-`codec.py` example:
+A training script with a regularization & fusion loss is provided in
+`examples/train_ood.py`. You can run the script for a training pipeline:
 
 ```bash
-python3 examples/codec.py --help
+python examples/train_ood.py --lambda 12 --epochs 250 --cuda --save --gpu 0,1,2,3 --batch-size 32 --rw 0.00001 --pw 1 --sdr_w 0.95 
 ```
-
-An examplary training script with a rate-distortion loss is provided in
-`examples/train.py`. You can replace the model used in the training script
-with your own model implemented within CompressAI, and then run the script for a
-simple training pipeline:
-
-```bash
-python3 examples/train.py -d /path/to/my/image/dataset/ --epochs 300 -lr 1e-4 --batch-size 16 --cuda --save
-```
-> **Note:** the training example uses a custom [ImageFolder](https://interdigitalinc.github.io/CompressAI/datasets.html#imagefolder) structure.
-
-A jupyter notebook illustrating the usage of a pre-trained model for learned image
-compression is also provided in the `examples` directory:
-
-```bash
-pip install -U ipython jupyter ipywidgets matplotlib
-jupyter notebook examples/
-```
+> **Note:** 'rw, pw, sdr_w' are the hyper-parameters of the constructed loss, to achevie the optimal performance of a certain network, it is recommended to use the grid search.
+You can also modify other parameters to change the model and training strategy in the way.
 
 ### Evaluation
 
-To evaluate a trained model on your own dataset, CompressAI provides an
-evaluation script:
+To evaluate a trained model on HDR and SDR dataset, evaluation scripts (`examples/test_hdr.py`, `examples/test_sdr.py`) are provided. Please modify the testing dataset path in the corresponding file, and specify the trained model path in cmd: 
 
 ```bash
-python3 -m compressai.utils.eval_model checkpoint /path/to/images/folder/ -a $ARCH -p $MODEL_CHECKPOINT...
+python examples/test_hdr.py --cuda --pth /XXX.pth.tar
 ```
-
-To evaluate traditional image/video codecs:
-
 ```bash
-python3 -m compressai.utils.bench --help
-python3 -m compressai.utils.bench bpg --help
-python3 -m compressai.utils.bench vtm --help
+python examples/test_sdr.py --cuda --pth /XXX.pth.tar
 ```
-
-## Tests
-
-Run tests with `pytest`:
-
-```bash
-pytest -sx --cov=compressai --cov-append --cov-report term-missing tests
-```
-
-Slow tests can be skipped with the `-m "not slow"` option.
 
 
 ## License
