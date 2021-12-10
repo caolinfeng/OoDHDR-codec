@@ -12,7 +12,7 @@ By Linfeng Cao, Aofan Jiang, Wei Li, Huaying Wu and Nanyang Ye
 <div align=center><img src="https://github.com/caolinfeng/OoDHDR-codec/blob/master/overview/framework.png" width="90%" height="90%"></div align=center>
 <p align="center">Overview of the proposed OoDHDR-codec framework.</p>
 <div align=center><img src="https://github.com/caolinfeng/OoDHDR-codec/blob/master/overview/dnn_backbone.png" width="90%" height="90%"></div align=center>
-<p align="center">DNN backbone used in our project.</p>
+<p align="center">DNN backbone in our project.</p>
 
 
 ## Installation
