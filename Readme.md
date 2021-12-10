@@ -44,7 +44,7 @@ HDR training datasets (.hdr) can be downloaded from:
 - [Funt and Shi 2010](https://www2.cs.sfu.ca/~colour/data/funt_hdr/)
 
 Evaluation datasets:
-- [HDR]
+- [HDR](https://drive.google.com/drive/folders/1U_GN4UARkLFve3UjvRhNKs56z6dcH-WI)
 - [SDR-Kodak](http://r0k.us/graphics/kodak/)
 
 ## Usage
