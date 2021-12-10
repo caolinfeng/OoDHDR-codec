@@ -14,6 +14,13 @@ By Linfeng Cao, Aofan Jiang, Wei Li, Huaying Wu and Nanyang Ye
 <div align=center><img src="https://github.com/caolinfeng/OoDHDR-codec/blob/master/overview/dnn_backbone.png" width="90%" height="90%"></div align=center>
 <p align="center">DNN backbone in our project.</p>
 
+## Dependencies
+
+- Python (3.8.3)
+- PyTorch (>=1.6.0)
+- torchvision
+- matplotlib
+- tensorboard
 
 ## Installation
 **From source**:
