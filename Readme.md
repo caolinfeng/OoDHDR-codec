@@ -81,8 +81,7 @@ To assess the compression performance on HDR images, the evaluation metrics of p
 
 ## Citation
 
-If you use this project, please cite the relevant original publications for the
-models and datasets, and cite this project as:
+If you find this code useful, please cite our paper::
 
 ```
 
