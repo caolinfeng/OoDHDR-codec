@@ -19,8 +19,8 @@ By Linfeng Cao, Aofan Jiang, Wei Li, Huaying Wu and Nanyang Ye
 **From source**:
 
 ```bash
-https://github.com/caolinfeng/OoDHDR-codec.git
-cd OoDHDR-codec
+git clone https://github.com/caolinfeng/OoDHDR-codec OodHDR_codec
+cd OodHDR_codec
 pip install -U pip && pip install -e .
 ```
 
