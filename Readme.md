@@ -30,7 +30,7 @@ SDR training datasets can be downloaded from:
 - [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K)
 - [Flickr2K](http://cv.snu.ac.kr/research/EDSR/Flickr2K.tar)
 
-HDR training datasets can be downloaded from:
+HDR training datasets (.hdr) can be downloaded from:
 - [HDRHEVEN](https://hdrihaven.com/hdris/)
 - [pfstools(HDR Image Gallery)](http://pfstools.sourceforge.net/hdr_gallery.html)
 - [HDRLabs](http://www.hdrlabs.com/sibl/archive/)
@@ -48,6 +48,7 @@ python examples/train_ood.py --lambda 12 --epochs 250 --cuda --save --gpu 0,1,2,
 ```
 > **Note:** 'rw, pw, sdr_w' are the hyper-parameters of the constructed loss, to achevie the optimal performance of a certain network, it is recommended to use the grid search.
 You can also modify other parameters to change the model and training strategy in the file or cmd.
+The ImageFolder structure in our project only support for the RGBE (.hdr) input currently.
 
 ### Evaluation
 
