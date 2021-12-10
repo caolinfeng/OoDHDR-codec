@@ -18,8 +18,8 @@ By Linfeng Cao, Aofan Jiang, Wei Li, Huaying Wu and Nanyang Ye
 
 - Python (3.8.3)
 - PyTorch (>=1.6.0)
-- 
-(see `setup.py` for the full list)
+
+  (see `setup.py` for the full list)
 
 
 ## Installation
