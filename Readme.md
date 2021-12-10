@@ -35,7 +35,7 @@ A training script with a regularization & fusion loss is provided in
 python examples/train_ood.py --lambda 12 --epochs 250 --cuda --save --gpu 0,1,2,3 --batch-size 32 --rw 0.00001 --pw 1 --sdr_w 0.95 
 ```
 > **Note:** 'rw, pw, sdr_w' are the hyper-parameters of the constructed loss, to achevie the optimal performance of a certain network, it is recommended to use the grid search.
-You can also modify other parameters to change the model and training strategy in the way.
+You can also modify other parameters to change the model and training strategy in the file or cmd.
 
 ### Evaluation
 
@@ -49,20 +49,6 @@ python examples/test_sdr.py --cuda --pth /XXX.pth.tar
 ```
 
 
-## License
-
-CompressAI is licensed under the Apache License, Version 2.0
-
-## Contributing
-
-We welcome feedback and contributions. Please open a GitHub issue to report
-bugs, request enhancements or if you have any questions.
-
-Before contributing, please read the CONTRIBUTING.md file.
-
-## Authors
-
-* Jean Bégaint, Fabien Racapé, Simon Feltman and Akshay Pushparaja, InterDigital AI Lab.
 
 ## Citation
 
@@ -79,12 +65,6 @@ models and datasets, and cite this project as:
 ```
 
 ## Related links
- * Tensorflow compression library by _Ballé et al._: https://github.com/tensorflow/compression
- * Range Asymmetric Numeral System code from _Fabian 'ryg' Giesen_: https://github.com/rygorous/ryg_rans
- * BPG image format by _Fabrice Bellard_: https://bellard.org/bpg
- * HEVC HM reference software: https://hevc.hhi.fraunhofer.de
- * VVC VTM reference software: https://vcgit.hhi.fraunhofer.de/jvet/VVCSoftware_VTM
- * AOM AV1 reference software: https://aomedia.googlesource.com/aom
- * Z. Cheng et al. 2020: https://github.com/ZhengxueCheng/Learned-Image-Compression-with-GMM-and-Attention
+ * This project is developed based on CompressAI library_: https://github.com/InterDigitalInc/CompressAI
  * Kodak image dataset: http://r0k.us/graphics/kodak/
 
