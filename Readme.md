@@ -24,6 +24,18 @@ cd OoDHDR-codec
 pip install -U pip && pip install -e .
 ```
 
+## Data Download
+
+SDR training datasets can be downloaded from:
+- [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K)
+- [Flickr2K](http://cv.snu.ac.kr/research/EDSR/Flickr2K.tar)
+
+HDR training datasets can be downloaded from:
+- [HDRHEVEN](https://hdrihaven.com/hdris/)
+- [pfstools(HDR Image Gallery)](http://pfstools.sourceforge.net/hdr_gallery.html)
+- [HDRLabs](http://www labs.com/sibl/archive.htm)
+- [Funt and Shi 2010](https://www2.cs.sfu.ca/~colour/data/funt_hdr/)
+
 ## Usage
 
 ### Training
