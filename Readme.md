@@ -74,12 +74,7 @@ If you use this project, please cite the relevant original publications for the
 models and datasets, and cite this project as:
 
 ```
-@article{begaint2020compressai,
-	title={CompressAI: a PyTorch library and evaluation platform for end-to-end compression research},
-	author={B{\'e}gaint, Jean and Racap{\'e}, Fabien and Feltman, Simon and Pushparaja, Akshay},
-	year={2020},
-	journal={arXiv preprint arXiv:2011.03029},
-}
+
 ```
 
 ## Related links
