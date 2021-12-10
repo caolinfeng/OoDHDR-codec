@@ -408,11 +408,11 @@ def main(argv):
 
     device = "cuda"
 
-    sdr_train_root = '/home/wheneverwhy/project/CLF_CVQN/image/train_big/'
-    hdr_train_root = '/home/wheneverwhy/project/CLF_GMCVQN/image/train_big'
+    sdr_train_root = '/sdr train sets'
+    hdr_train_root = '/hdr train sets'
 
-    sdr_valid_root = '/home/wheneverwhy/project/CLF_CVQN/image/Kodak'
-    hdr_valid_root = '/home/wheneverwhy/project/CompressAI-master/examples/test_data'
+    sdr_valid_root = '/sdr valid sets'
+    hdr_valid_root = '/sdr valid sets'
 
     train_dataset = ImageFolder_OOD(hdr_root=hdr_train_root, 
                             sdr_root=sdr_train_root,
