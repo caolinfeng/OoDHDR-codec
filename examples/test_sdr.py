@@ -173,7 +173,7 @@ def main(argv):
         [transforms.ToTensor()]
     )
 
-    test_root = '/home/wheneverwhy/project/CLF_CVQN/image/Kodak'
+    test_root = '/your sdr test sets'
 
     logger.info(test_root)
 
