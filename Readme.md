@@ -77,7 +77,7 @@ python examples/test_sdr.py --cuda --pth /XXX.pth.tar
 
 ### Quality Assessement
 
-To assess the compression performance on HDR images, the evaluation metrics of puPSNR, puSSIM and HDR-VDP (3.0.6) are used, the source codes (Matlab) can be [downloaded here](http://resources.mpi-inf.mpg.de/hdr/vdp/). 
+To assess the compression performance on HDR images, the evaluation metrics of puPSNR, puSSIM and HDR-VDP (3.0.6) are used, the source codes (Matlab version) can be [downloaded here](http://resources.mpi-inf.mpg.de/hdr/vdp/). 
 
 ## Citation
 
