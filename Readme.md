@@ -48,7 +48,7 @@ You can run the script for a training pipeline:
 ```bash
 python examples/train_ood.py --lambda 12 --epochs 250 --cuda --save --gpu 0,1,2,3 --batch-size 32 --rw 1e-5 --pw 1 --sdr_w 0.95 
 ```
-> **Note:** 'rw, pw, sdr_w' are the hyper-parameters of the constructed loss, to achevie the optimal performance of a certain network, it is recommended to use the grid search.
+> **Note:** 'rw, pw, sdr_w' are the hyper-parameters of the constructed loss. To achevie the optimal performance of a certain network, it is recommended to use the grid search.
 You can also modify other parameters to change the model and training strategy in the file or cmd.
 
 ### Evaluation
