@@ -63,7 +63,7 @@ def test_epoch(test_dataloader, model, logger, log_dir):
     bpp_loss = AverageMeter()
     msssim_loss = AverageMeter()
 
-    save_index = 0
+    save_index = 1
     Duration = []
     with torch.no_grad():
         for (img, _) in test_dataloader:
@@ -118,7 +118,7 @@ def test_epoch(test_dataloader, model, logger, log_dir):
             cv2.imwrite(log_dir + str(save_index) + '.hdr', re_hdr_save)
 
             sdr_save = np.squeeze((re*255).cpu().numpy(), 0).transpose(1,2,0).astype(np.uint8)
-            cv2.imwrite(log_dir + 'SDR_layer_'+str(save_index) + '.png', sdr_save)
+            cv2.imwrite(log_dir + 'sdr_layer_'+str(save_index) + '.png', sdr_save)
 
             save_index += 1
 
