@@ -6,7 +6,7 @@ This repository is for "OoDHDR-Codec: Out-of-Distribution Generalization for HDR
 
 By Linfeng Cao, Aofan Jiang, Wei Li, Huaying Wu and Nanyang Ye
 
-
+- Paper full supplementary is available [here (Google Drive)](https://drive.google.com/file/d/1rUYaTCcGzofm0QZLjo4UTY-32Lmrlj8A/view?usp=sharing)
 ## Overview
 
 <div align=center><img src="https://github.com/caolinfeng/OoDHDR-codec/blob/master/overview/framework.png" width="90%" height="90%"></div align=center>
@@ -57,7 +57,7 @@ A training script with a regularization & fusion loss is provided in
 You can run the script for a training pipeline:
 
 ```bash
-python examples/train_ood.py --lambda 12 --epochs 250 --cuda --save --gpu 0,1,2,3 --batch-size 32 --rw 1e-5 --pw 1 --sdr_w 0.95 
+python examples/train_ood.py --lambda 12 --epochs 250 --cuda --save --gpu 0,1,2,3 --batch-size 32 --rw 1e-5 --pw 2 --sdr_w 0.95 
 ```
 > **Note:** 'rw, pw, sdr_w' are the hyper-parameters of the constructed loss. To achevie the optimal performance of a certain network, it is recommended to use the grid search.
 You can also modify other parameters to change the model and training strategy in the file or cmd.
