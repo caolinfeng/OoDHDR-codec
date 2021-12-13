@@ -73,7 +73,7 @@ python examples/test_hdr.py --pth /XXX.pth.tar
 python examples/test_sdr.py --pth /XXX.pth.tar
 ```
 
-* The PyTorch pre-trained models can be downloaded [here (Google Drive)](https://drive.google.com/drive/folders/1FPUvTdN0JkoNJjm3FHDyrdPtLrddUxOm)
+* The PyTorch pre-trained models can be downloaded [here (Google Drive)](https://drive.google.com/drive/folders/1FPUvTdN0JkoNJjm3FHDyrdPtLrddUxOm?usp=sharing)
 
 ### Quality Assessement
 
