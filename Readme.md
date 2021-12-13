@@ -38,13 +38,13 @@ SDR training datasets can be downloaded from:
 - [Flickr2K](http://cv.snu.ac.kr/research/EDSR/Flickr2K.tar)
 
 HDR training datasets (.hdr) can be downloaded from:
-- [HDRHEVEN](https://hdrihaven.com/hdris/)
-- [pfstools(HDR Image Gallery)](http://pfstools.sourceforge.net/hdr_gallery.html)
+- [HDRIHEVEN](https://hdrihaven.com/hdris/)
+- [pfstools (HDR Image Gallery)](http://pfstools.sourceforge.net/hdr_gallery.html)
 - [HDRLabs](http://www.hdrlabs.com/sibl/archive/)
 - [Funt and Shi 2010](https://www2.cs.sfu.ca/~colour/data/funt_hdr/)
 
 Evaluation datasets:
-- [HDR(Google Drive)](https://drive.google.com/drive/folders/1U_GN4UARkLFve3UjvRhNKs56z6dcH-WI?usp=sharing)
+- [HDR (Google Drive)](https://drive.google.com/drive/folders/1U_GN4UARkLFve3UjvRhNKs56z6dcH-WI?usp=sharing)
 - [SDR-Kodak](http://r0k.us/graphics/kodak/)
 
 ## Usage
