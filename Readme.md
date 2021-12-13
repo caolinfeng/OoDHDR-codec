@@ -6,7 +6,7 @@ This repository is for "OoDHDR-Codec: Out-of-Distribution Generalization for HDR
 
 By Linfeng Cao, Aofan Jiang, Wei Li, Huaying Wu and Nanyang Ye
 
-- Paper full supplementary is available [here (Google Drive)](https://drive.google.com/file/d/1rUYaTCcGzofm0QZLjo4UTY-32Lmrlj8A/view?usp=sharing)
+- Paper full supplementary is available [here (Google Drive)](https://drive.google.com/file/d/1HYOSB4owuOZWVKBzTkJRylLeumL1xN4Y/view?usp=sharing)
 ## Overview
 
 <div align=center><img src="https://github.com/caolinfeng/OoDHDR-codec/blob/master/overview/framework.png" width="90%" height="90%"></div align=center>
@@ -44,7 +44,7 @@ HDR training datasets (.hdr) can be downloaded from:
 - [Funt and Shi 2010](https://www2.cs.sfu.ca/~colour/data/funt_hdr/)
 
 Evaluation datasets:
-- [HDR](https://drive.google.com/drive/folders/1U_GN4UARkLFve3UjvRhNKs56z6dcH-WI)
+- [HDR](https://drive.google.com/drive/folders/1U_GN4UARkLFve3UjvRhNKs56z6dcH-WI?usp=sharing)
 - [SDR-Kodak](http://r0k.us/graphics/kodak/)
 
 ## Usage
