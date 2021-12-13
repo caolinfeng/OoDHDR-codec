@@ -67,10 +67,10 @@ You can also modify other parameters to change the model and training strategy i
 To evaluate a trained model on HDR and SDR dataset, evaluation scripts (`examples/test_hdr.py`, `examples/test_sdr.py`) are provided. Please modify the testing dataset path in the corresponding file, and specify the trained model path in cmd: 
 
 ```bash
-python examples/test_hdr.py --cuda --pth /XXX.pth.tar
+python examples/test_hdr.py --pth /XXX.pth.tar
 ```
 ```bash
-python examples/test_sdr.py --cuda --pth /XXX.pth.tar
+python examples/test_sdr.py --pth /XXX.pth.tar
 ```
 
 * The PyTorch pre-trained models can be downloaded [here (Google Drive)](https://drive.google.com/drive/folders/1FPUvTdN0JkoNJjm3FHDyrdPtLrddUxOm)
