@@ -87,7 +87,7 @@ If you find this code useful, please cite our paper::
 @inproceedings{Cao2020OodHDR,
   title     = {OoDHDR-Codec: Out-of-Distribution Generalization for HDR Image Compression},
   author    = {Linfeng Cao, Aofan Jiang, Wei Li, Huaying Wu and Nanyang Ye},
-  booktitle = {Proceedings ofthe Fourth National Conference on Artificial Intelligence},
+  booktitle = {Proceedings of the Thirty-Sixth AAAI Conference on Artificial Intelligence (AAAI)},
   year      = {2022}
 }
 ```
