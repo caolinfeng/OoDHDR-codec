@@ -2,7 +2,7 @@
 
 This repository is for "OoDHDR-Codec: Out-of-Distribution Generalization for HDR Image Compression"
 
-(to appear in AAAI, 2022)
+(AAAI, 2022)
 
 By Linfeng Cao, Aofan Jiang, Wei Li, Huaying Wu and Nanyang Ye
 
@@ -81,7 +81,7 @@ To assess the compression performance on HDR images, the evaluation metrics of p
 
 ## Citation
 
-If you find this code useful, please cite our paper::
+If you find this code useful, please cite our paper:
 
 ```
 @inproceedings{Cao2020OodHDR,
