@@ -1,6 +1,6 @@
 # OoDHDR-codec
 
-This repository is for "OoDHDR-Codec: Out-of-Distribution Generalization for HDR Image Compression"
+This repository is for "[OoDHDR-Codec: Out-of-Distribution Generalization for HDR Image Compression](https://ojs.aaai.org/index.php/AAAI/article/view/19890)"
 
 (AAAI, 2022)
 
